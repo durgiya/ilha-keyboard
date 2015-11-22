@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:left="@dimen/key_bg_padding"
+    android:top="@dimen/key_bg_padding"
+    android:bottom="@dimen/key_bg_padding"
+    android:right="@dimen/key_bg_padding">
+    <solid
+        android:color="@color/highlighted_bg" />
+    <padding
+        android:left="2dip"
+        android:top="2dip"
+        android:bottom="2dip"
+        android:right="2dip"/>
+    <stroke
+        android:color="@color/key_bg_normal"
+        android:width="3dp"/>
+    <corners android:radius="6dip"/>
+</shape>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Titles for IME  -->
+    <string name="ime_name">Clavier Ilha</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_english">AN</string>
+    <string name="label_manju">MN</string>
+    <string name="label_manju_symbol">NU</string>
+    <string name="space_label">ESPACE</string>
+    <string name="label_subtype_manju">Mandchou (RPC)</string>
+
+</resources>

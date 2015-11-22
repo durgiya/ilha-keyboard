@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="key_height">44dip</dimen>
+    <dimen name="key_height_bottom_row">44dip</dimen>
+    <dimen name="key_height_popup">32dip</dimen>
+    <dimen name="key_height_4row">44dip</dimen>
+    <dimen name="key_bg_padding">4dip</dimen>
+    <dimen name="vertical_gap">4dip</dimen>
+</resources>

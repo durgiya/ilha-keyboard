@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0dip"
+    android:verticalGap="@dimen/vertical_gap"
+    android:keyHeight="@dimen/key_height_4row" >
+
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="52" android:keyLabel="4"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="55" android:keyLabel="7"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="6252" android:keyLabel="g" android:keyEdgeFlags="left" android:horizontalGap="5%p"/>
+        <Key android:codes="6202" android:keyLabel="k"/>
+        <Key android:codes="6253" android:keyLabel="h"/>
+        <Key android:codes="6263" android:keyLabel="j"/>
+        <Key android:codes="6257" android:keyLabel="q"/>
+        <Key android:codes="6256" android:keyLabel="r"/>
+        <Key android:codes="6158" android:keyLabel="mvs"/>
+        <Key android:codes="6239" android:keyLabel="zwjs"/>
+        <Key android:codes="8239" android:keyLabel="nnbs" android:keyEdgeFlags="right"/><!--NNBS-->
+    </Row>
+    
+    <Row>
+        <Key android:codes="-200" android:keyIcon="@drawable/shift_light" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="64" android:keyLabel="\@"/>
+        <Key android:codes="6148" android:keyLabel=":"/>
+        <Key android:codes="6145" android:keyLabel="…"/>
+        <Key android:codes="6154" android:keyLabel="nrg"/>
+        <Key android:codes="6155" android:keyLabel="fvs1"/>
+        <Key android:codes="6156" android:keyLabel="fvs2"/>
+        <Key android:codes="6157" android:keyLabel="fvs3"/>
+        <Key android:codes="-5"   android:keyIcon="@drawable/delete_light"
+            android:keyWidth="15%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom" android:keyHeight="@dimen/key_height_bottom_row" >
+        <Key android:codes="-200" android:keyLabel="@string/label_manju_symbol" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="!"/>
+        <Key android:codes="32" android:keyLabel="@string/space_label" android:keyWidth="50%p" android:isRepeatable="true" />
+        <Key android:keyLabel="\?"/>
+        <Key android:codes="10" android:keyIcon="@drawable/enter_light" android:keyWidth="15%p" android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

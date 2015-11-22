@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Titles for IME  -->
+    <string name="ime_name">일하 키보드</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_english">영</string>
+    <string name="label_manju">만</string>
+    <string name="label_manju_symbol">부</string>
+    <string name="space_label">스페스</string>
+    <string name="label_subtype_manju">만주어(중국)</string>
+
+</resources>
